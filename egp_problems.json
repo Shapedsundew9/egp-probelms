@@ -1,14 +1,13 @@
 [
     {
-        "code_file_name": "number_tree/functions.py",
+        "root_path": "number_tree",
         "description": "A tree of numbers",
         "git_hash": "fd8d3b39991a5d6c6ca6be4d30499c3d923f99a8",
         "git_repo": "egp-playground",
         "git_url": "https://github.com/Shapedsundew9/",
         "last_verified_live": "2023-09-16T21:35:20.913252Z",
-        "name": "Number tree",
+        "name": "Number Tree",
         "ordered_interface_hash": 2017383754777200068,
-        "requirements_file_name": null,
         "unordered_interface_hash": -498239222030527776
     }
 ]

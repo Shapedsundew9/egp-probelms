@@ -62,7 +62,19 @@
             "description": "The date and time the git url, repo & hash were last verified to be live."
         }
     },
-    "code_file_name": {
+    "root_path": {
+        "type": "string",
+        "required": true,
+        "nullable": false,
+        "default": ".",
+        "minlength": 1,
+        "maxlength": 1024,
+        "regex": "[ -~]{0,1024}",
+        "meta": {
+            "description": "The root folder of the problem definition relative to the repo root."
+        }
+    },
+    "ff_code_file": {
         "type": "string",
         "required": true,
         "nullable": false,
@@ -71,7 +83,7 @@
         "maxlength": 1024,
         "regex": "[ -~]{0,1024}",
         "meta": {
-            "description": "The python file defining the fitness function and preload function including the path from the root of the repo and .py extension."
+            "description": "The python file defining the fitness function and preload function including the path from the root and .py extension."
         }
     },
     "requirements_file_name": {
