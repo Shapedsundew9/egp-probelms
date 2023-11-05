@@ -1,2 +1,0 @@
-17:28:55 DEBUG connectionpool.py 1017 Starting new HTTPS connection (1): github.com:443
-17:28:55 DEBUG connectionpool.py 474 https://github.com:443 "HEAD /Shapedsundew9//egp-playground/commit/fd8d3b39991a5d6c6ca6be4d30499c3d923f99a8 HTTP/1.1" 200 0
